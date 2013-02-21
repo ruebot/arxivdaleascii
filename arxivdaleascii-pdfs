@@ -1,0 +1,12 @@
+#!/bin/bash
+# Bash script that archives selected Free Dale Askey web sites using the WARC ISO format.
+HOME=/home/nruest/Dropbox/mellen-askey/arxiv/pdfs
+SITES=/home/nruest/git/arxivdaleascii/arxivdaleascii-pdf.txt
+
+cd $HOME
+
+cat $SITES | while read line; do
+  echo Attempting to archive: $line
+  echo ...
+  /usr/local/bin/wget $line
+done

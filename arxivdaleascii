@@ -1,5 +1,6 @@
 #!/bin/bash
 # Bash script that archives selected Free Dale Askey web sites using the WARC ISO format.
+#HOME=/home/nruest/Dropbox/mellen-askey/arxiv/sites
 HOME=/mnt/daleascii
 DATE=`date +"%Y_%m_%d"`
 SITES=/home/nruest/git/arxivdaleascii/arxivdaleascii-sites.txt
@@ -17,9 +18,9 @@ cat $SITES | while read line; do
   echo ...
   mkdir $DATE_$pad$index
   cd $DATE_$pad$index
-  /usr/local/bin/wget --mirror --convert-links --no-parent --random-wait --warc-file=$DATE_$pad$index $line
+  /usr/local/bin/wget --mirror --convert-links --no-parent --random-wait --warc-file=$DATE_$pad$index "$line"
   cd $HOME/FDA_$DATE
   zip -r $DATE_$pad$index.zip $DATE_$pad$index
   rm -rf $DATE_$pad$index
-  #echo "S'up Dawg? I archived $line site: $(date)" >> /var/log/daleascii.log
+  echo "S'up Dawg? I archived $line site: $(date)" >> /var/log/daleascii.log
 done
