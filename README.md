@@ -6,7 +6,7 @@ This is a collection of a couple simple bash scripts to archive all of the sites
 
 ### Contributing
 
-I'm not an expert here. If you know of a better way to do it, please contribute!
+I'm not an expert here. If you know of a better way to do it, please contribute! It can even be something as simple as adding sites to the site text file.
 
 1. [Fork the repository](https://help.github.com/articles/fork-a-repo)
 2. Do something awesome!
