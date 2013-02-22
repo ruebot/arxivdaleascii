@@ -18,7 +18,7 @@ cat $SITES | while read line; do
   xvfb-run -a -s "-screen 0 1280x1024x24" wkhtmltoimage --use-xserver "$line" temp.png
   pngcrush temp.png $pad$index.png
   rm temp.png
-  /usr/local/bin/wget --mirror --convert-links --no-parent --random-wait --page-requisites --warc-file=$DATE_$pad$index "$line"
+  /usr/local/bin/wget --mirror --convert-links --no-parent --random-wait --warc-file=$DATE_$pad$index "$line"
   cd $HOME/FDA_$DATE
   zip -r $DATE_$pad$index.zip $DATE_$pad$index
   rm -rf $DATE_$pad$index
