@@ -12,11 +12,12 @@ cd FDA_$DATE
 
 cat $SITES | while read line; do
   let "index++"
-  echo $pad$index
-  echo Attempting to archive: $line
-  echo ...
   mkdir $DATE_$pad$index
   cd $DATE_$pad$index
+  xvfb-run -a -s "-screen 0 1280x1024x24" wkhtmltopdf --use-xserver --dpi 200  --page-size Letter "$line" $pad$index.pdf
+  xvfb-run -a -s "-screen 0 1280x1024x24" wkhtmltoimage --use-xserver "$line" temp.png
+  pngcrush temp.png $pad$index.png
+  rm temp.png
   /usr/local/bin/wget --mirror --convert-links --no-parent --random-wait --page-requisites --warc-file=$DATE_$pad$index "$line"
   cd $HOME/FDA_$DATE
   zip -r $DATE_$pad$index.zip $DATE_$pad$index
