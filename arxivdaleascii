@@ -1,10 +1,10 @@
 #!/bin/bash
 # Bash script that archives selected Free Dale Askey web sites using the WARC ISO format.
-HOME=/home/nruest/Dropbox/mellen-askey/arxiv/sites
+#HOME=/home/nruest/Dropbox/mellen-askey/arxiv/sites
+HOME=/mnt/daleascii
 DATE=`date +"%Y_%m_%d"`
 SITES=/home/nruest/git/arxivdaleascii/arxivdaleascii-sites.txt
 index=0
-pad=`printf "%03d"`
 
 cd $HOME
 mkdir FDA_$DATE
@@ -12,15 +12,16 @@ cd FDA_$DATE
 
 cat $SITES | while read line; do
   let "index++"
-  mkdir $DATE_$pad$index
-  cd $DATE_$pad$index
-  xvfb-run -a -s "-screen 0 1280x1024x24" wkhtmltopdf --use-xserver --dpi 200  --page-size Letter "$line" $pad$index.pdf
+  pad=`printf "%05d" $index`
+  mkdir $DATE_$pad
+  cd $DATE_$pad
+  xvfb-run -a -s "-screen 0 1280x1024x24" wkhtmltopdf --use-xserver --dpi 200  --page-size Letter "$line" $pad.pdf
   xvfb-run -a -s "-screen 0 1280x1024x24" wkhtmltoimage --use-xserver "$line" temp.png
-  pngcrush temp.png $pad$index.png
+  pngcrush temp.png $pad.png
   rm temp.png
-  /usr/local/bin/wget --adjust-extension --page-requisites --convert-links --no-parent --random-wait --warc-file=$DATE_$pad$index "$line"
+  /usr/local/bin/wget --adjust-extension --page-requisites --convert-links --no-parent --random-wait --warc-file=$DATE_$pad "$line"
   cd $HOME/FDA_$DATE
-  zip -r $DATE_$pad$index.zip $DATE_$pad$index
-  rm -rf $DATE_$pad$index
+  zip -r $DATE_$pad.zip $DATE_$pad
+  rm -rf $DATE_$pad
   echo "$(date) - $line archived" >> /var/log/daleascii.log
 done
