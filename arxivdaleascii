@@ -1,7 +1,6 @@
 #!/bin/bash
 # Bash script that archives selected Free Dale Askey web sites using the WARC ISO format.
-#HOME=/home/nruest/Dropbox/mellen-askey/arxiv/sites
-HOME=/mnt/daleascii
+HOME=/home/nruest/Dropbox/mellen-askey/arxiv/sites
 DATE=`date +"%Y_%m_%d"`
 SITES=/home/nruest/git/arxivdaleascii/arxivdaleascii-sites.txt
 index=0
