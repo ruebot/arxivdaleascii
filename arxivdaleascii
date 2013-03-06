@@ -14,10 +14,10 @@ cat $SITES | while read line; do
   pad=`printf "%05d" $index`
   mkdir $DATE_$pad
   cd $DATE_$pad
-  xvfb-run -a -s "-screen 0 1280x1024x24" wkhtmltopdf --use-xserver --dpi 200  --page-size Letter "$line" $pad.pdf
-  xvfb-run -a -s "-screen 0 1280x1024x24" wkhtmltoimage --use-xserver "$line" temp.png
-  pngcrush temp.png $pad.png
-  rm temp.png
+  /usr/bin/xvfb-run -a -s "-screen 0 1280x1024x24" /usr/bin/wkhtmltopdf --dpi 200 --page-size Letter --custom-header 'User-Agent' 'User-Agent Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; de-de) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4' "$line" $pad.pdf
+  /usr/bin/xvfb-run -a -s "-screen 0 1280x1024x24" /usr/local/bin/wkhtmltoimage "$line" tmp.png
+  /usr/bin/pngcrush tmp.png $pad.png
+  rm tmp.png
   /usr/local/bin/wget --adjust-extension --page-requisites --convert-links --no-parent --random-wait --warc-file=$DATE_$pad "$line"
   cd $HOME/FDA_$DATE
   zip -r $DATE_$pad.zip $DATE_$pad
