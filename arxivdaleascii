@@ -29,5 +29,6 @@ cat $SITES | while read line; do
   else
     echo "$(date) - $line wget error $WGET_RESULT" >> /var/log/daleascii.log
     echo $WGET_ERR >> /var/log/daleascii.log
+    # should do email notification here, once all the false drops are shaken out
   fi
 done
