@@ -12,8 +12,8 @@ cd FDA_$DATE
 cat $SITES | while read line; do
   let "index++"
   pad=`printf "%05d" $index`
-  mkdir $DATE_$pad
-  cd $DATE_$pad
+  mkdir $DATE-$pad
+  cd $DATE-$pad
   WGET_ERR=`/usr/local/bin/wget --adjust-extension --page-requisites --convert-links --no-parent --random-wait --warc-file=$pad-$DATE "$line" 2>&1`
   WGET_RESULT=$?
   if [ $WGET_RESULT -eq 0 ] 
@@ -23,8 +23,8 @@ cat $SITES | while read line; do
     /usr/bin/pngcrush tmp.png $pad-$DATE.png
     rm tmp.png
     cd $HOME/FDA_$DATE
-    zip -r $DATE_$pad.zip $DATE_$pad
-    rm -rf $DATE_$pad
+    zip -r $DATE-$pad.zip $DATE-$pad
+    rm -rf $DATE-$pad
     echo "$(date) - $line archived" >> /var/log/daleascii.log
   else
     echo "$(date) - $line wget error $WGET_RESULT" >> /var/log/daleascii.log
