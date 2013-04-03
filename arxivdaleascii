@@ -14,21 +14,13 @@ cat $SITES | while read line; do
   pad=`printf "%05d" $index`
   mkdir $DATE-$pad
   cd $DATE-$pad
-  WGET_ERR=`/usr/local/bin/wget --adjust-extension --page-requisites --convert-links --no-parent --random-wait --warc-file=$pad-$DATE "$line" 2>&1`
-  WGET_RESULT=$?
-  if [ $WGET_RESULT -eq 0 ] 
-  then
-    /usr/bin/xvfb-run -a -s "-screen 0 1280x1024x24" /usr/bin/wkhtmltopdf --use-xserver --dpi 200 --page-size Letter --custom-header 'User-Agent' 'User-Agent Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; de-de) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4' "$line" $pad-$DATE.pdf
-    /usr/bin/xvfb-run -a -s "-screen 0 1280x1024x24" /usr/local/bin/wkhtmltoimage --use-xserver --custom-header 'User-Agent' 'User-Agent Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; de-de) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4' "$line" tmp.png
-    /usr/bin/pngcrush tmp.png $pad-$DATE.png
-    rm tmp.png
-    cd $HOME/FDA_$DATE
-    zip -r $DATE-$pad.zip $DATE-$pad
-    rm -rf $DATE-$pad
-    echo "$(date) - $line archived" >> /var/log/daleascii.log
-  else
-    echo "$(date) - $line wget error $WGET_RESULT" >> /var/log/daleascii.log
-    echo $WGET_ERR >> /var/log/daleascii.log
-    # should do email notification here, once all the false drops are shaken out
-  fi
+  /usr/bin/xvfb-run -a -s "-screen 0 1280x1024x24" /usr/bin/wkhtmltopdf --use-xserver --dpi 200 --page-size Letter --custom-header 'User-Agent' 'User-Agent Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; de-de) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4' "$line" $pad-$DATE.pdf
+  /usr/bin/xvfb-run -a -s "-screen 0 1280x1024x24" /usr/local/bin/wkhtmltoimage --use-xserver --custom-header 'User-Agent' 'User-Agent Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; de-de) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4' "$line" tmp.png
+  /usr/bin/pngcrush tmp.png $pad-$DATE.png
+  rm tmp.png
+  /usr/local/bin/wget --adjust-extension --page-requisites --convert-links --no-parent --random-wait --warc-file=$pad-$DATE "$line"
+  cd $HOME/FDA_$DATE
+  zip -r $DATE-$pad.zip $DATE-$pad
+  rm -rf $DATE-$pad
+  echo "$(date) - $line archived" >> /var/log/daleascii.log
 done
