@@ -1,0 +1,20 @@
+#!/bin/bash
+HOME=/media/seagate/projects/batch
+BATCHOBJECTS=/media/seagate/projects/fdabatch
+
+cd $HOME
+
+sites=0
+index=0
+
+while [ $sites -le 225 ]; do
+  let "sites++"
+  let "index++"
+  pad=`printf "%05d" $index`
+  mkdir /media/seagate/projects/fdabatch/batch-ingest-$pad
+  find $HOME -type f -name "$pad*.gz" -exec cp {} /media/seagate/projects/fdabatch/batch-ingest-$pad \;
+  find $HOME -type f -name "$pad*.png" -exec cp {} /media/seagate/projects/fdabatch/batch-ingest-$pad \;
+  find $HOME -type f -name "$pad*.pdf" -exec cp {} /media/seagate/projects/fdabatch/batch-ingest-$pad \;
+  cd /media/seagate/projects/fdabatch/batch-ingest-$pad
+  gunzip *.gz
+done
