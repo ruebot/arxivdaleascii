@@ -1,0 +1,18 @@
+#!/bin/bash
+# Bash script that archives selected York University web sites using the WARC ISO format.
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+DATE=`date +"%Y_%m_%d"`
+
+cd /mnt/DIY/web-archiving/arxivdaleascii/festschrift
+mkdir festschrift_$DATE
+cd festschrift_$DATE
+
+xvfb-run -a -s "-screen 0 1280x1024x24" wkhtmltopdf --use-xserver --dpi 200  --page-size Letter http://herbertwarrenrichardson.com/ festschrift_$DATE.pdf
+xvfb-run -a -s "-screen 0 1280x1024x24" wkhtmltoimage --use-xserver http://herbertwarrenrichardson.com/ temp.png
+pngcrush temp.png festschrift_$DATE.png
+rm temp.png
+/usr/local/bin/wget --mirror --page-requisites --warc-file=festschrift_$DATE --wait=1 http://herbertwarrenrichardson.com/
+cd ..
+zip -r festschrift_$DATE.zip festschrift_$DATE
+rm -rf festschrift_$DATE
+echo "$(date) - festschrift archived" >> /var/log/daleascii.log

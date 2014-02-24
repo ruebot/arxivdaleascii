@@ -2,425 +2,424 @@
 
 cd /home/nruest/sites/freedaleaskey.plggta.org/sites/all/modules
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2035 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00100
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2035 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00100
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6610 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00094
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6610 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00094
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6194 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00032
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6194 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00032
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1971 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00156
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1971 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00156
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3315 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00077
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3315 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00077
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4498 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00112
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4498 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00112
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2515 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00115
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2515 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00115
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5810 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00169
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5810 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00169
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6130 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00027
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6130 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00027
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1233 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00193
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1233 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00193
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6706 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00102
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6706 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00102
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:487 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00216
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:487 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00216
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3955 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00041
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3955 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00041
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5746 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00097
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5746 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00097
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1747 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00164
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1747 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00164
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1651 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00028
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1651 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00028
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:706 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00205
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:706 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00205
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5522 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00067
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5522 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00067
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5426 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00123
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5426 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00123
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5490 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00065
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5490 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00065
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5458 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00157
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5458 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00157
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5618 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00147
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5618 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00147
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5650 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00145
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5650 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00145
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5554 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00155
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5554 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00155
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5394 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00011
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5394 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00011
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3379 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00084
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3379 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00084
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2131 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00066
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2131 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00066
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3539 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00119
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3539 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00119
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3507 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00099
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3507 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00099
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3699 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00037
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3699 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00037
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3347 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00139
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3347 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00139
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2611 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00043
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2611 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00043
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2547 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00093
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2547 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00093
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5170 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00081
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5170 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00081
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5042 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00002
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5042 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00002
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5106 parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00005
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5106 parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00005
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6898 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00124
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6898 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00124
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:532 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00213
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:532 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00213
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1811 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00150
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1811 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00150
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1265 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00192
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1265 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00192
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1201 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00194
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1201 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00194
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4658 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00159
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4658 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00159
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1137 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00196
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1137 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00196
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:976 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00201
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:976 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00201
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1169 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00195
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1169 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00195
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5874 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00049
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5874 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00049
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5586 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00082
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5586 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00082
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4722 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00058
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4722 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00058
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5298 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00024
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5298 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00024
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2451 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00001
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2451 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00001
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:7058 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00167
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:7058 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00167
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4115 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00090
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4115 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00090
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6450 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00078
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6450 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00078
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5362 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00026
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5362 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00026
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3731 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00168
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3731 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00168
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6962 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00135
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6962 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00135
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6258 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00039
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6258 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00039
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1009 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00200
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1009 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00200
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3603 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00016
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3603 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00016
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4019 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00040
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4019 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00040
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2579 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00109
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2579 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00109
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1683 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-0030
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1683 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-0030
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:738 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00204
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:738 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00204
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4626 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00071
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4626 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00071
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4946 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00076
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4946 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00076
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5010 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00017
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5010 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00017
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5266 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00038
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5266 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00038
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4786 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00063
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4786 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00063
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3059 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00140
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3059 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00140
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3123 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00117
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3123 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00117
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3411 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00133
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3411 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00133
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2803 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00176
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2803 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00176
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6002 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00009
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6002 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00009
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6994 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00162
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6994 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00162
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6802 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00106
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6802 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00106
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3667 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00170
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3667 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00170
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6354 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00054
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6354 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00054
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6066 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00015
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6066 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00015
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6322 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00053
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6322 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00053
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1554 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00003
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1554 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00003
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:533 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00212
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:533 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00212
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:534 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00211
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:534 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00211
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6930 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00130
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6930 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00130
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5682 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00010
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5682 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00010
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6770 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00105
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6770 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00105
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4268 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00055
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4268 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00055
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6514 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00085
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6514 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00085
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5202 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00165
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5202 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00165
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3763 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00064
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3763 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00064
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3635 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00044
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3635 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00044
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3795 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00153
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3795 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00153
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6546 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00087
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6546 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00087
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2099 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00056
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2099 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00056
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3859 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00061
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3859 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00061
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5074 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00142
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5074 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00142
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5074 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00019
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5074 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00019
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2899 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00060
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2899 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00060
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4914 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00031
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4914 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00031
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3219 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00113
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3219 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00113
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2483 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00007
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2483 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00007
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3571 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00171
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3571 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00171
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6578 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00091
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6578 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00091
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5778 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00163
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5778 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00163
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4338 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00022
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4338 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00022
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2067 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00098
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2067 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00098
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5234 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00057
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5234 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00057
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4562 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00108
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4562 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00108
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6674 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00101
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6674 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00101
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1457 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00138
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1457 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00138
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1586 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00012
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1586 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00012
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1521 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00132
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1521 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00132
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1779 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00151
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1779 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00151
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5970 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00004
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5970 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00004
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3091 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00107
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3091 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00107
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2931 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00160
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2931 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00160
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6162 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00033
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6162 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00033
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4882 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00044
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4882 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00044
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1329 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00190
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1329 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00190
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3891 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00035
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3891 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00035
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6226 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00036
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6226 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00036
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4434 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00128
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4434 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00128
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1619 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00013
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1619 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00013
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4402 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00127
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4402 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00127
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:7026 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00166
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:7026 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00166
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:535 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00210
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:535 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00210
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3187 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00110
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3187 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00110
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4850 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00086
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4850 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00086
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5906 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00034
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5906 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00034
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3155 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00088
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3155 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00088
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4978 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00134
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4978 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00134
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6642 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00095
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6642 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00095
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5842 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00023
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5842 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00023
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6418 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00073
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6418 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00073
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4179 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00046
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4179 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00046
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:498 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00215
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:498 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00215
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3987 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00129
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3987 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00129
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2419 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00020
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2419 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00020
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1393 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00188
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1393 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00188
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:802 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00202
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:802 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00202
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:476 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00214
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:476 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00214
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3443 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00072
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3443 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00072
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3827 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00018
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3827 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00018
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1073 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00198
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1073 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00198
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1425 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00187
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1425 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00187
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2643 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00096
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2643 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00096
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2771 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00029
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2771 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00029
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2995 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00050
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2995 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00050
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6386 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00062
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6386 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00062
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6738 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00103
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6738 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00103
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4530 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00083
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4530 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00083
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3283 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00070
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3283 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00070
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1041 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00199
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1041 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00199
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:13081 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00219
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:13081 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00219
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2867 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00092
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2867 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00092
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2675 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00131
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2675 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00131
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5330 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00161
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5330 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00161
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:7122 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00177
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:7122 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00177
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:675  --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00208
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:675  --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00208
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4243 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00042
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4243 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00042
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1843 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00149
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1843 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00149
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6290 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00047
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6290 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00047
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3923 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00051
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3923 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00051
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5138 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00158
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5138 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00158
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4051 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00173
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4051 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00173
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:5938 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00006
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:5938 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00006
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6834 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00114
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6834 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00114
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2003 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00122
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2003 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00122
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4690 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00052
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4690 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00052
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2835 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00074
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2835 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00074
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1907 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00152
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1907 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00152
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3027 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00175
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3027 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00175
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4754 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00121
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4754 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00121
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4818 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00075
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4818 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00075
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1875 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00143
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1875 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00143
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2739 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00069
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2739 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00069
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:770 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00203
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:770 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00203
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2707 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00126
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2707 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00126
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6034 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00014
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6034 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00014
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3251 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00148
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3251 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00148
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4083 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00008
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4083 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00008
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1105 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00197
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1105 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00197
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:7090 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00174
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:7090 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00174
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1939 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00172
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1939 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00172
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1715 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00025
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1715 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00025
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:433 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00111
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:433 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00111
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1489 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00137
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1489 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00137
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:536 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00209
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:536 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00209
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4466 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00059
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4466 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00059
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4370 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00080
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4370 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00080
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4147 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00141
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4147 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00141
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4211 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00045
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4211 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00045
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1361 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00189
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1361 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00189
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6098 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00021
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6098 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00021
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:4594 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00136
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:4594 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00136
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:3475 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00089
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:3475 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00089
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:6866 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00120
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:6866 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00120
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:1297 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00191
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:1297 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00191
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2291 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00183
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2291 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00183
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2323 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00184
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2323 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00184
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2355 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00185
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2355 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00185
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2387 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00186
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2387 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00186
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2227 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00181
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2227 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00181
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2259 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00182
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2259 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00182
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2163 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00179
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2163 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00179
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:2195 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00180
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:2195 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00180
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:15696 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00220
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:15696 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00220
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:15697 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00221
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:15697 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00221
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:15698 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00222
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:15698 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00222
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:15699 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00223
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:15699 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00223
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --content_models=islandora:sp_web_archive --parent=plggta:15700 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00224
+drush -v --user=nruest --uri=http://freedaleaskey.plggta.org islandora_batch_scan_preprocess --namespace==plggta --content_models=islandora:sp_web_archive --parent=plggta:15700 --parent_relationship_pred=isMemberOfCollection --type=directory --target=/media/seagate/projects/fdabatch/batch-ingest-00224
 
-drush -v --user=admin --uri=http://freedaleaskey.plggta.org islandora_batch_ingest
-
+/home/nruest/bin/batchfda
